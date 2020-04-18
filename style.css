@@ -1,3 +1,22 @@
+/*style uniwersalne*/
+
+p, ul, h5 {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: sans-serif;
+}
+
+h5 {
+  font-size: 15px;
+}
+
+h4 {
+    font-size: 20px;
+    text-align: center;
+}
+
+/*podstawowe style, strona główna*/
+
 body {
     background-color: black;
 }
@@ -38,20 +57,10 @@ button {
     margin-left: 28%;
 }
 
-/*czlonkowie styl*/
+/*style pozostałych stron*/
 
-p, ul {
-    margin-left: 10px;
-    font-family: sans-serif;
-}
-
-h5 {
-  font-size: 15px;
-}
-
-.czlonkowie-container{
+.context-container{
     display: flex;
-    justify-content: flex-start;
     background-color: rgba(255, 255, 255, 0.5);;
     margin-left: 28%;
 }
@@ -60,7 +69,7 @@ h5 {
     margin: 10px 90px 2px;
 }
 
-.przypis {
+.annotation {
     text-align: center;
     font-size: 12px;
 }
@@ -68,7 +77,6 @@ h5 {
 .film-img {
     margin: 5% 7%;
     height: 300px;
-    display: inline-block;
 }
 
 .reference {
