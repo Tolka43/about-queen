@@ -1,5 +1,5 @@
 body {
-    background-image: url('vinyl.jpg');
+    background-color: black;
 }
 
 .logo {
@@ -11,18 +11,12 @@ nav {
     position: fixed;
 }
 
-.big-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
 .container {
     display: flex;
     width: 25%;
     flex-direction: column;
     justify-content: center;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.6);
     padding: 7% 6px;
   }
 
@@ -38,5 +32,45 @@ button {
     background-color: rgba(255, 255, 255, 0.7);
 }
 
+.queen-img{
+    padding: 6%;
+    display: flex;
+    margin-left: 28%;
+}
+
 /*czlonkowie styl*/
 
+p, ul {
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+
+h5 {
+  font-size: 15px;
+}
+
+.czlonkowie-container{
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 0.5);;
+    margin-left: 28%;
+}
+
+.zespol-img {
+    margin: 10px 90px 2px;
+}
+
+.przypis {
+    text-align: center;
+    font-size: 12px;
+}
+
+.film-img {
+    margin: 5% 7%;
+    height: 300px;
+    display: inline-block;
+}
+
+.reference {
+    color: black;
+}
